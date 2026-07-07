@@ -1,0 +1,9 @@
+2026-07-06 03:14:02,016 | INFO     | src.parsing.repo_loader | Cloning https://github.com/psf/requests.git -> /home/rajpatel/MachineLearning/codebase-rag/data/repos/requests
+2026-07-06 04:13:01,340 | INFO     | src.parsing.repo_walker | Found 37 Python files under data/repos/requests
+2026-07-06 04:13:01,453 | INFO     | src.parsing.repo_walker | Walk complete: 31/37 parsed, 0 skipped (size), 6 failed, 716 total chunks
+2026-07-06 04:22:00,902 | INFO     | src.parsing.repo_walker | Found 37 Python files under data/repos/requests
+2026-07-06 04:22:01,095 | INFO     | src.parsing.repo_walker | Walk complete: 37/37 parsed, 0 skipped (size), 0 failed, 722 total chunks
+2026-07-06 04:29:33,029 | INFO     | src.parsing.repo_walker | Found 37 Python files under data/repos/requests
+2026-07-06 04:29:33,230 | INFO     | src.parsing.repo_walker | Walk complete: 37/37 parsed, 0 skipped (size), 0 failed, 722 total chunks
+2026-07-06 04:29:33,253 | INFO     | src.parsing.serialize | Saved 722 chunks to /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests.jsonl
+2026-07-06 04:29:33,264 | INFO     | src.parsing.serialize | Loaded 722 chunks from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests.jsonl
