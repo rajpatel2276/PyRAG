@@ -22,6 +22,7 @@ class CodeChunk:
     source_code: str
     docstring: str | None
     decorators: list[str] = field(default_factory=list)
+    base_classes: list[str] = field(default_factory=list)
 
 
 def parse_file(file_path: Path) -> list[CodeChunk]:
@@ -99,6 +100,7 @@ def _make_chunk(node, source_bytes: bytes, file_path: Path, chunk_type: str, nam
     source_code = source_bytes[node.start_byte:node.end_byte].decode("utf-8")
     docstring = _get_docstring(node, source_bytes)
     decorators = _get_decorators(node, source_bytes)
+    base_classes = _get_base_classes(node, source_bytes) if chunk_type == "class" else []
 
     qualified_name = f"{parent_class}.{name}" if parent_class else name
     chunk_id = f"{file_path}::{qualified_name}::{start_line}"
@@ -114,6 +116,7 @@ def _make_chunk(node, source_bytes: bytes, file_path: Path, chunk_type: str, nam
         source_code=source_code,
         docstring=docstring,
         decorators=decorators,
+        base_classes=base_classes,
     )
 
 def _make_module_chunk(root_node, source_bytes: bytes, file_path: Path) -> CodeChunk:
@@ -130,3 +133,21 @@ def _make_module_chunk(root_node, source_bytes: bytes, file_path: Path) -> CodeC
         docstring=_get_docstring(root_node, source_bytes),
         decorators=[],
     )
+
+def _get_base_classes(node, source_bytes: bytes) -> list[str]:
+    """For a class_definition node, extract superclass names from
+    class Foo(Bar, Baz): ...  ->  ['Bar', 'Baz']
+    """
+    superclasses_node = node.child_by_field_name("superclasses")
+    if superclasses_node is None:
+        return []
+    bases = []
+    for child in superclasses_node.children:
+        if child.type == "identifier":
+            bases.append(source_bytes[child.start_byte:child.end_byte].decode("utf-8"))
+        elif child.type == "keyword_argument":
+            continue  # skip things like metaclass=ABCMeta
+        elif child.type == "attribute":
+            # e.g. "requests.exceptions.RequestException" as a base — take full dotted text
+            bases.append(source_bytes[child.start_byte:child.end_byte].decode("utf-8"))
+    return bases

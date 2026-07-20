@@ -7,3 +7,71 @@
 2026-07-06 04:29:33,230 | INFO     | src.parsing.repo_walker | Walk complete: 37/37 parsed, 0 skipped (size), 0 failed, 722 total chunks
 2026-07-06 04:29:33,253 | INFO     | src.parsing.serialize | Saved 722 chunks to /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests.jsonl
 2026-07-06 04:29:33,264 | INFO     | src.parsing.serialize | Loaded 722 chunks from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests.jsonl
+2026-07-07 02:14:08,815 | INFO     | src.graph.import_graph | Import graph: 37 files, 29 import edges
+2026-07-07 02:18:33,374 | INFO     | src.graph.import_graph | Import graph: 37 files, 117 import edges
+2026-07-07 02:46:29,315 | INFO     | src.graph.import_graph | Import graph: 37 files, 117 import edges
+2026-07-07 02:46:29,317 | INFO     | src.parsing.repo_walker | Found 37 Python files under data/repos/requests
+2026-07-07 02:46:29,427 | INFO     | src.parsing.repo_walker | Walk complete: 37/37 parsed, 0 skipped (size), 0 failed, 722 total chunks
+2026-07-07 02:46:29,427 | INFO     | src.graph.build_graph | Chunk walk stats: WalkStats(files_found=37, files_parsed=37, files_skipped_size=0, files_failed=0, total_chunks=722)
+2026-07-07 02:46:29,430 | INFO     | src.graph.chunk_graph | After adding chunks: 759 nodes, 876 edges
+2026-07-07 02:54:45,130 | INFO     | src.graph.import_graph | Import graph: 37 files, 117 import edges
+2026-07-07 02:54:45,133 | INFO     | src.parsing.repo_walker | Found 37 Python files under data/repos/requests
+2026-07-07 02:54:45,247 | INFO     | src.parsing.repo_walker | Walk complete: 37/37 parsed, 0 skipped (size), 0 failed, 722 total chunks
+2026-07-07 02:54:45,247 | INFO     | src.graph.build_graph | Chunk walk stats: WalkStats(files_found=37, files_parsed=37, files_skipped_size=0, files_failed=0, total_chunks=722)
+2026-07-07 02:54:45,250 | INFO     | src.graph.chunk_graph | After adding chunks: 759 nodes, 876 edges
+2026-07-07 02:56:29,290 | INFO     | src.graph.import_graph | Import graph: 2 files, 1 import edges
+2026-07-07 02:56:29,294 | INFO     | src.graph.import_graph | Import graph: 2 files, 1 import edges
+2026-07-07 02:56:29,294 | INFO     | src.parsing.repo_walker | Found 2 Python files under /tmp/pytest-of-rajpatel/pytest-2/test_containment_and_inheritan0/testrepo
+2026-07-07 02:56:29,294 | INFO     | src.parsing.repo_walker | Walk complete: 2/2 parsed, 0 skipped (size), 0 failed, 5 total chunks
+2026-07-07 02:56:29,295 | INFO     | src.graph.chunk_graph | After adding chunks: 7 nodes, 6 edges
+2026-07-07 02:56:29,299 | INFO     | src.graph.import_graph | Import graph: 1 files, 0 import edges
+2026-07-07 02:56:29,299 | INFO     | src.parsing.repo_walker | Found 1 Python files under /tmp/pytest-of-rajpatel/pytest-2/test_same_file_inheritance_res0/testrepo2
+2026-07-07 02:56:29,299 | INFO     | src.parsing.repo_walker | Walk complete: 1/1 parsed, 0 skipped (size), 0 failed, 2 total chunks
+2026-07-07 02:56:29,299 | INFO     | src.graph.chunk_graph | After adding chunks: 3 nodes, 3 edges
+2026-07-11 16:40:14,739 | INFO     | src.graph.import_graph | Import graph: 2 files, 1 import edges
+2026-07-11 16:40:14,743 | INFO     | src.graph.import_graph | Import graph: 2 files, 1 import edges
+2026-07-11 16:40:14,743 | INFO     | src.parsing.repo_walker | Found 2 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_containment_and_inheritan0/testrepo
+2026-07-11 16:40:14,744 | INFO     | src.parsing.repo_walker | Walk complete: 2/2 parsed, 0 skipped (size), 0 failed, 5 total chunks
+2026-07-11 16:40:14,744 | INFO     | src.graph.chunk_graph | After adding chunks: 7 nodes, 6 edges
+2026-07-11 16:40:14,748 | INFO     | src.graph.import_graph | Import graph: 1 files, 0 import edges
+2026-07-11 16:40:14,748 | INFO     | src.parsing.repo_walker | Found 1 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_same_file_inheritance_res0/testrepo2
+2026-07-11 16:40:14,749 | INFO     | src.parsing.repo_walker | Walk complete: 1/1 parsed, 0 skipped (size), 0 failed, 2 total chunks
+2026-07-11 16:40:14,749 | INFO     | src.graph.chunk_graph | After adding chunks: 3 nodes, 3 edges
+2026-07-20 11:51:46,481 | INFO     | src.graph.import_graph | Import graph: 37 files, 117 import edges
+2026-07-20 11:51:46,484 | INFO     | src.parsing.repo_walker | Found 37 Python files under data/repos/requests
+2026-07-20 11:51:46,617 | INFO     | src.parsing.repo_walker | Walk complete: 37/37 parsed, 0 skipped (size), 0 failed, 722 total chunks
+2026-07-20 11:51:46,618 | INFO     | src.graph.build_graph | Chunk walk stats: WalkStats(files_found=37, files_parsed=37, files_skipped_size=0, files_failed=0, total_chunks=722)
+2026-07-20 11:51:46,621 | INFO     | src.graph.chunk_graph | After adding chunks: 759 nodes, 876 edges
+2026-07-20 11:51:46,803 | INFO     | src.graph.call_graph | Call graph: 130 best-effort call edges added
+2026-07-20 11:56:29,120 | INFO     | src.graph.import_graph | Import graph: 2 files, 1 import edges
+2026-07-20 11:56:29,124 | INFO     | src.graph.import_graph | Import graph: 2 files, 1 import edges
+2026-07-20 11:56:29,125 | INFO     | src.parsing.repo_walker | Found 2 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_containment_and_inheritan0/testrepo
+2026-07-20 11:56:29,125 | INFO     | src.parsing.repo_walker | Walk complete: 2/2 parsed, 0 skipped (size), 0 failed, 5 total chunks
+2026-07-20 11:56:29,125 | INFO     | src.graph.chunk_graph | After adding chunks: 7 nodes, 6 edges
+2026-07-20 11:56:29,128 | INFO     | src.graph.import_graph | Import graph: 1 files, 0 import edges
+2026-07-20 11:56:29,128 | INFO     | src.parsing.repo_walker | Found 1 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_same_file_inheritance_res0/testrepo2
+2026-07-20 11:56:29,129 | INFO     | src.parsing.repo_walker | Walk complete: 1/1 parsed, 0 skipped (size), 0 failed, 2 total chunks
+2026-07-20 11:56:29,129 | INFO     | src.graph.chunk_graph | After adding chunks: 3 nodes, 3 edges
+2026-07-20 11:56:29,132 | INFO     | src.graph.import_graph | Import graph: 1 files, 0 import edges
+2026-07-20 11:56:29,132 | INFO     | src.parsing.repo_walker | Found 1 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_direct_function_call_reso0/testrepo3
+2026-07-20 11:56:29,132 | INFO     | src.parsing.repo_walker | Walk complete: 1/1 parsed, 0 skipped (size), 0 failed, 2 total chunks
+2026-07-20 11:56:29,132 | INFO     | src.graph.chunk_graph | After adding chunks: 3 nodes, 2 edges
+2026-07-20 11:56:29,132 | INFO     | src.graph.call_graph | Call graph: 1 best-effort call edges added
+2026-07-20 11:56:29,135 | INFO     | src.graph.import_graph | Import graph: 1 files, 0 import edges
+2026-07-20 11:56:29,136 | INFO     | src.parsing.repo_walker | Found 1 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_self_method_call_resolved0/testrepo4
+2026-07-20 11:56:29,136 | INFO     | src.parsing.repo_walker | Walk complete: 1/1 parsed, 0 skipped (size), 0 failed, 3 total chunks
+2026-07-20 11:56:29,136 | INFO     | src.graph.chunk_graph | After adding chunks: 4 nodes, 3 edges
+2026-07-20 11:56:29,136 | INFO     | src.graph.call_graph | Call graph: 1 best-effort call edges added
+2026-07-20 11:56:29,139 | INFO     | src.graph.import_graph | Import graph: 1 files, 0 import edges
+2026-07-20 11:56:29,139 | INFO     | src.parsing.repo_walker | Found 1 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_dynamic_dispatch_not_fals0/testrepo5
+2026-07-20 11:56:29,140 | INFO     | src.parsing.repo_walker | Walk complete: 1/1 parsed, 0 skipped (size), 0 failed, 3 total chunks
+2026-07-20 11:56:29,140 | INFO     | src.graph.chunk_graph | After adding chunks: 4 nodes, 3 edges
+2026-07-20 11:56:29,140 | INFO     | src.graph.call_graph | Call graph: 0 best-effort call edges added
+2026-07-20 11:57:23,481 | INFO     | src.graph.import_graph | Import graph: 37 files, 117 import edges
+2026-07-20 11:57:23,483 | INFO     | src.parsing.repo_walker | Found 37 Python files under data/repos/requests
+2026-07-20 11:57:23,604 | INFO     | src.parsing.repo_walker | Walk complete: 37/37 parsed, 0 skipped (size), 0 failed, 722 total chunks
+2026-07-20 11:57:23,604 | INFO     | src.graph.build_graph | Chunk walk stats: WalkStats(files_found=37, files_parsed=37, files_skipped_size=0, files_failed=0, total_chunks=722)
+2026-07-20 11:57:23,607 | INFO     | src.graph.chunk_graph | After adding chunks: 759 nodes, 876 edges
+2026-07-20 11:57:23,764 | INFO     | src.graph.call_graph | Call graph: 130 best-effort call edges added
+2026-07-20 11:57:23,775 | INFO     | src.graph.serialize | Saved graph (759 nodes, 1006 edges) to /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests_graph.json
+2026-07-20 11:57:23,782 | INFO     | src.graph.serialize | Loaded graph (759 nodes, 1006 edges) from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests_graph.json
