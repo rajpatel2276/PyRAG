@@ -75,3 +75,172 @@
 2026-07-20 11:57:23,764 | INFO     | src.graph.call_graph | Call graph: 130 best-effort call edges added
 2026-07-20 11:57:23,775 | INFO     | src.graph.serialize | Saved graph (759 nodes, 1006 edges) to /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests_graph.json
 2026-07-20 11:57:23,782 | INFO     | src.graph.serialize | Loaded graph (759 nodes, 1006 edges) from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests_graph.json
+2026-07-20 16:35:31,155 | INFO     | src.graph.import_graph | Import graph: 2 files, 1 import edges
+2026-07-20 16:35:31,159 | INFO     | src.graph.import_graph | Import graph: 2 files, 1 import edges
+2026-07-20 16:35:31,159 | INFO     | src.parsing.repo_walker | Found 2 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_containment_and_inheritan0/testrepo
+2026-07-20 16:35:31,159 | INFO     | src.parsing.repo_walker | Walk complete: 2/2 parsed, 0 skipped (size), 0 failed, 5 total chunks
+2026-07-20 16:35:31,160 | INFO     | src.graph.chunk_graph | After adding chunks: 7 nodes, 6 edges
+2026-07-20 16:35:31,163 | INFO     | src.graph.import_graph | Import graph: 1 files, 0 import edges
+2026-07-20 16:35:31,163 | INFO     | src.parsing.repo_walker | Found 1 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_same_file_inheritance_res0/testrepo2
+2026-07-20 16:35:31,163 | INFO     | src.parsing.repo_walker | Walk complete: 1/1 parsed, 0 skipped (size), 0 failed, 2 total chunks
+2026-07-20 16:35:31,163 | INFO     | src.graph.chunk_graph | After adding chunks: 3 nodes, 3 edges
+2026-07-20 16:35:31,166 | INFO     | src.graph.import_graph | Import graph: 1 files, 0 import edges
+2026-07-20 16:35:31,166 | INFO     | src.parsing.repo_walker | Found 1 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_direct_function_call_reso0/testrepo3
+2026-07-20 16:35:31,166 | INFO     | src.parsing.repo_walker | Walk complete: 1/1 parsed, 0 skipped (size), 0 failed, 2 total chunks
+2026-07-20 16:35:31,167 | INFO     | src.graph.chunk_graph | After adding chunks: 3 nodes, 2 edges
+2026-07-20 16:35:31,167 | INFO     | src.graph.call_graph | Call graph: 1 best-effort call edges added
+2026-07-20 16:35:31,170 | INFO     | src.graph.import_graph | Import graph: 1 files, 0 import edges
+2026-07-20 16:35:31,170 | INFO     | src.parsing.repo_walker | Found 1 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_self_method_call_resolved0/testrepo4
+2026-07-20 16:35:31,171 | INFO     | src.parsing.repo_walker | Walk complete: 1/1 parsed, 0 skipped (size), 0 failed, 3 total chunks
+2026-07-20 16:35:31,171 | INFO     | src.graph.chunk_graph | After adding chunks: 4 nodes, 3 edges
+2026-07-20 16:35:31,171 | INFO     | src.graph.call_graph | Call graph: 1 best-effort call edges added
+2026-07-20 16:35:31,174 | INFO     | src.graph.import_graph | Import graph: 1 files, 0 import edges
+2026-07-20 16:35:31,174 | INFO     | src.parsing.repo_walker | Found 1 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_dynamic_dispatch_not_fals0/testrepo5
+2026-07-20 16:35:31,175 | INFO     | src.parsing.repo_walker | Walk complete: 1/1 parsed, 0 skipped (size), 0 failed, 3 total chunks
+2026-07-20 16:35:31,175 | INFO     | src.graph.chunk_graph | After adding chunks: 4 nodes, 3 edges
+2026-07-20 16:35:31,175 | INFO     | src.graph.call_graph | Call graph: 0 best-effort call edges added
+2026-07-20 16:35:37,920 | INFO     | src.graph.import_graph | Import graph: 37 files, 117 import edges
+2026-07-20 16:35:37,922 | INFO     | src.parsing.repo_walker | Found 37 Python files under data/repos/requests
+2026-07-20 16:35:38,039 | INFO     | src.parsing.repo_walker | Walk complete: 37/37 parsed, 0 skipped (size), 0 failed, 722 total chunks
+2026-07-20 16:35:38,039 | INFO     | src.graph.build_graph | Chunk walk stats: WalkStats(files_found=37, files_parsed=37, files_skipped_size=0, files_failed=0, total_chunks=722)
+2026-07-20 16:35:38,042 | INFO     | src.graph.chunk_graph | After adding chunks: 759 nodes, 876 edges
+2026-07-20 16:35:38,193 | INFO     | src.graph.call_graph | Call graph: 130 best-effort call edges added
+2026-07-20 16:35:38,204 | INFO     | src.graph.serialize | Saved graph (759 nodes, 1006 edges) to /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests_graph.json
+2026-07-20 16:35:38,212 | INFO     | src.graph.serialize | Loaded graph (759 nodes, 1006 edges) from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests_graph.json
+2026-07-20 17:03:21,430 | INFO     | src.parsing.serialize | Loaded 722 chunks from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests.jsonl
+2026-07-20 17:05:38,914 | INFO     | src.parsing.serialize | Loaded 722 chunks from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests.jsonl
+2026-07-21 13:57:49,493 | INFO     | src.parsing.serialize | Loaded 722 chunks from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests.jsonl
+2026-07-21 13:57:49,493 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-21 13:58:01,592 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-21 13:58:01,610 | INFO     | src.embedding.embedder | Embedding 10 chunks (batch_size=8)
+2026-07-21 14:22:15,980 | INFO     | src.parsing.serialize | Loaded 722 chunks from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests.jsonl
+2026-07-21 14:22:15,981 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-21 14:22:26,521 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-21 14:22:26,576 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/tests/test_requests.py::TestRequests::84 has 21240 tokens (limit 8192); falling back to name+docstring only for embedding
+2026-07-21 14:22:26,753 | INFO     | src.embedding.embedder | Embedding 722 chunks (batch_size=16)
+2026-07-21 14:26:35,784 | INFO     | src.parsing.serialize | Loaded 722 chunks from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests.jsonl
+2026-07-21 14:26:35,785 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-21 14:26:43,046 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-21 14:26:43,102 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/tests/test_requests.py::TestRequests::84 has 21240 tokens (limit 8192); falling back to name+docstring only for embedding
+2026-07-21 14:26:43,284 | INFO     | src.embedding.embedder | Embedding 722 chunks (batch_size=16)
+2026-07-21 14:29:36,063 | INFO     | src.parsing.serialize | Loaded 722 chunks from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests.jsonl
+2026-07-21 14:29:36,064 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-21 14:29:43,442 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-21 14:29:43,475 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/tests/test_requests.py::TestRequests::84 has 21240 tokens (limit 8192); falling back to name+docstring only for embedding
+2026-07-21 14:31:04,963 | INFO     | src.parsing.serialize | Loaded 722 chunks from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests.jsonl
+2026-07-21 14:31:04,964 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-21 14:31:11,862 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-21 14:33:06,113 | INFO     | src.parsing.serialize | Loaded 722 chunks from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests.jsonl
+2026-07-21 14:33:06,113 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-21 14:33:13,109 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-21 14:33:13,161 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/tests/test_requests.py::TestRequests::84 has 21240 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-21 14:33:13,205 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/tests/test_requests.py::TestPreparingURLs::2760 has 2997 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-21 14:33:13,223 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/docs/conf.py::__module__ has 3329 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-21 14:33:13,241 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/src/requests/models.py::PreparedRequest::378 has 3049 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-21 14:33:13,252 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/src/requests/models.py::Response::732 has 3729 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-21 14:33:13,280 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/src/requests/sessions.py::SessionRedirectMixin::127 has 2412 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-21 14:33:13,291 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/src/requests/sessions.py::Session::395 has 4389 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-21 14:33:12,783 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/src/requests/cookies.py::RequestsCookieJar::191 has 2456 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-21 14:33:12,795 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/src/requests/auth.py::HTTPDigestAuth::124 has 2158 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-21 14:33:12,810 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/src/requests/adapters.py::HTTPAdapter::158 has 5186 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-21 14:33:12,818 | INFO     | src.embedding.embedder | Embedding 722 chunks (batch_size=8)
+2026-07-21 14:36:28,342 | INFO     | src.embedding.vector_store | Connected to Chroma collection 'requests' at /home/rajpatel/MachineLearning/codebase-rag/chroma_db
+2026-07-21 14:36:28,465 | INFO     | src.embedding.vector_store | Upserted chunks 0-100/722
+2026-07-21 14:36:28,573 | INFO     | src.embedding.vector_store | Upserted chunks 100-200/722
+2026-07-21 14:36:28,684 | INFO     | src.embedding.vector_store | Upserted chunks 200-300/722
+2026-07-21 14:36:28,799 | INFO     | src.embedding.vector_store | Upserted chunks 300-400/722
+2026-07-21 14:36:28,939 | INFO     | src.embedding.vector_store | Upserted chunks 400-500/722
+2026-07-21 14:36:29,069 | INFO     | src.embedding.vector_store | Upserted chunks 500-600/722
+2026-07-21 14:36:29,217 | INFO     | src.embedding.vector_store | Upserted chunks 600-700/722
+2026-07-21 14:36:29,283 | INFO     | src.embedding.vector_store | Upserted chunks 700-722/722
+2026-07-21 14:36:29,311 | INFO     | src.embedding.vector_store | Total chunks in collection: 722
+2026-07-21 14:39:28,885 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-21 14:39:35,566 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-21 14:39:35,641 | INFO     | src.embedding.vector_store | Connected to Chroma collection 'requests' at /home/rajpatel/MachineLearning/codebase-rag/chroma_db
+2026-07-22 13:47:17,772 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-22 13:47:24,634 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-22 13:47:24,767 | INFO     | src.embedding.vector_store | Connected to Chroma collection 'requests' at /home/rajpatel/MachineLearning/codebase-rag/chroma_db
+2026-07-22 13:47:37,006 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-22 13:47:43,584 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-22 13:47:43,667 | INFO     | src.embedding.vector_store | Connected to Chroma collection 'requests' at /home/rajpatel/MachineLearning/codebase-rag/chroma_db
+2026-07-22 13:51:12,690 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-22 13:51:18,551 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-22 13:51:18,631 | INFO     | src.embedding.vector_store | Connected to Chroma collection 'requests' at /home/rajpatel/MachineLearning/codebase-rag/chroma_db
+2026-07-22 13:55:31,015 | INFO     | src.parsing.serialize | Loaded 722 chunks from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests.jsonl
+2026-07-22 13:55:31,015 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-22 13:55:37,598 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-22 13:55:37,649 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/tests/test_requests.py::TestRequests::84 has 21240 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-22 13:55:37,693 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/tests/test_requests.py::TestPreparingURLs::2760 has 2997 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-22 13:55:37,710 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/docs/conf.py::__module__ has 3329 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-22 13:55:37,727 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/src/requests/models.py::PreparedRequest::378 has 3049 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-22 13:55:37,738 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/src/requests/models.py::Response::732 has 3729 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-22 13:55:37,765 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/src/requests/sessions.py::SessionRedirectMixin::127 has 2412 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-22 13:55:37,776 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/src/requests/sessions.py::Session::395 has 4389 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-22 13:55:37,799 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/src/requests/cookies.py::RequestsCookieJar::191 has 2456 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-22 13:55:37,811 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/src/requests/auth.py::HTTPDigestAuth::124 has 2158 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-22 13:55:37,825 | WARNING  | src.embedding.embedder | Chunk data/repos/requests/src/requests/adapters.py::HTTPAdapter::158 has 5186 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-22 13:55:37,833 | INFO     | src.embedding.embedder | Embedding 722 chunks (batch_size=8)
+2026-07-22 13:58:56,335 | INFO     | src.embedding.vector_store | Connected to Chroma collection 'requests' at /home/rajpatel/MachineLearning/codebase-rag/chroma_db
+2026-07-22 13:58:56,575 | INFO     | src.embedding.vector_store | Upserted chunks 0-100/722
+2026-07-22 13:58:56,708 | INFO     | src.embedding.vector_store | Upserted chunks 100-200/722
+2026-07-22 13:58:56,875 | INFO     | src.embedding.vector_store | Upserted chunks 200-300/722
+2026-07-22 13:58:56,990 | INFO     | src.embedding.vector_store | Upserted chunks 300-400/722
+2026-07-22 13:58:57,119 | INFO     | src.embedding.vector_store | Upserted chunks 400-500/722
+2026-07-22 13:58:57,260 | INFO     | src.embedding.vector_store | Upserted chunks 500-600/722
+2026-07-22 13:58:57,378 | INFO     | src.embedding.vector_store | Upserted chunks 600-700/722
+2026-07-22 13:58:57,435 | INFO     | src.embedding.vector_store | Upserted chunks 700-722/722
+2026-07-22 13:58:57,453 | INFO     | src.embedding.vector_store | Total chunks in collection: 722
+2026-07-22 13:59:56,942 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-22 14:00:03,784 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-22 14:00:03,866 | INFO     | src.embedding.vector_store | Connected to Chroma collection 'requests' at /home/rajpatel/MachineLearning/codebase-rag/chroma_db
+2026-07-22 14:06:55,681 | INFO     | src.embedding.vector_store | Connected to Chroma collection 'requests' at /home/rajpatel/MachineLearning/codebase-rag/chroma_db
+2026-07-22 14:07:07,738 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-22 14:07:14,486 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-22 14:07:14,565 | INFO     | src.embedding.vector_store | Connected to Chroma collection 'requests' at /home/rajpatel/MachineLearning/codebase-rag/chroma_db
+2026-07-22 14:12:08,254 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-22 14:12:14,495 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-22 14:12:14,499 | INFO     | src.embedding.embedder | Embedding 2 chunks (batch_size=8)
+2026-07-22 14:12:14,627 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-22 14:12:21,244 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-22 14:12:21,254 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-22 14:12:27,899 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-22 14:12:27,919 | WARNING  | src.embedding.embedder | Chunk test::big has 20006 tokens (safe limit 2000); falling back to name+docstring only for embedding
+2026-07-22 14:12:27,926 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-22 14:12:34,419 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-22 14:12:34,420 | INFO     | src.embedding.embedder | Embedding 3 chunks (batch_size=8)
+2026-07-22 14:12:34,574 | INFO     | src.graph.import_graph | Import graph: 2 files, 1 import edges
+2026-07-22 14:12:34,578 | INFO     | src.graph.import_graph | Import graph: 2 files, 1 import edges
+2026-07-22 14:12:34,578 | INFO     | src.parsing.repo_walker | Found 2 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_containment_and_inheritan0/testrepo
+2026-07-22 14:12:34,578 | INFO     | src.parsing.repo_walker | Walk complete: 2/2 parsed, 0 skipped (size), 0 failed, 5 total chunks
+2026-07-22 14:12:34,578 | INFO     | src.graph.chunk_graph | After adding chunks: 7 nodes, 6 edges
+2026-07-22 14:12:34,582 | INFO     | src.graph.import_graph | Import graph: 1 files, 0 import edges
+2026-07-22 14:12:34,582 | INFO     | src.parsing.repo_walker | Found 1 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_same_file_inheritance_res0/testrepo2
+2026-07-22 14:12:34,583 | INFO     | src.parsing.repo_walker | Walk complete: 1/1 parsed, 0 skipped (size), 0 failed, 2 total chunks
+2026-07-22 14:12:34,583 | INFO     | src.graph.chunk_graph | After adding chunks: 3 nodes, 3 edges
+2026-07-22 14:12:34,587 | INFO     | src.graph.import_graph | Import graph: 1 files, 0 import edges
+2026-07-22 14:12:34,587 | INFO     | src.parsing.repo_walker | Found 1 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_direct_function_call_reso0/testrepo3
+2026-07-22 14:12:34,587 | INFO     | src.parsing.repo_walker | Walk complete: 1/1 parsed, 0 skipped (size), 0 failed, 2 total chunks
+2026-07-22 14:12:34,587 | INFO     | src.graph.chunk_graph | After adding chunks: 3 nodes, 2 edges
+2026-07-22 14:12:34,587 | INFO     | src.graph.call_graph | Call graph: 1 best-effort call edges added
+2026-07-22 14:12:34,591 | INFO     | src.graph.import_graph | Import graph: 1 files, 0 import edges
+2026-07-22 14:12:34,591 | INFO     | src.parsing.repo_walker | Found 1 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_self_method_call_resolved0/testrepo4
+2026-07-22 14:12:34,592 | INFO     | src.parsing.repo_walker | Walk complete: 1/1 parsed, 0 skipped (size), 0 failed, 3 total chunks
+2026-07-22 14:12:34,592 | INFO     | src.graph.chunk_graph | After adding chunks: 4 nodes, 3 edges
+2026-07-22 14:12:34,592 | INFO     | src.graph.call_graph | Call graph: 1 best-effort call edges added
+2026-07-22 14:12:34,595 | INFO     | src.graph.import_graph | Import graph: 1 files, 0 import edges
+2026-07-22 14:12:34,595 | INFO     | src.parsing.repo_walker | Found 1 Python files under /tmp/pytest-of-rajpatel/pytest-0/test_dynamic_dispatch_not_fals0/testrepo5
+2026-07-22 14:12:34,596 | INFO     | src.parsing.repo_walker | Walk complete: 1/1 parsed, 0 skipped (size), 0 failed, 3 total chunks
+2026-07-22 14:12:34,596 | INFO     | src.graph.chunk_graph | After adding chunks: 4 nodes, 3 edges
+2026-07-22 14:12:34,596 | INFO     | src.graph.call_graph | Call graph: 0 best-effort call edges added
+2026-07-22 18:41:36,796 | INFO     | src.llm.ollama_client | Ollama connected, model 'qwen2.5-coder:1.5b-instruct-q4_K_M' available
+2026-07-22 18:50:38,281 | ERROR    | src.llm.ollama_client | Model 'this-model-does-not-exist:latest' not found in Ollama. Available: ['qwen2.5-coder:1.5b-instruct-q4_K_M', 'llama3.2:latest']. Run: ollama pull this-model-does-not-exist:latest
+2026-07-22 18:52:26,132 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-22 18:52:32,062 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-22 18:52:32,204 | INFO     | src.embedding.vector_store | Connected to Chroma collection 'requests' at /home/rajpatel/MachineLearning/codebase-rag/chroma_db
+2026-07-22 18:52:32,206 | INFO     | src.llm.ollama_client | Ollama connected, model 'qwen2.5-coder:1.5b-instruct-q4_K_M' available
+2026-07-23 13:58:46,650 | INFO     | src.graph.serialize | Loaded graph (759 nodes, 1006 edges) from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests_graph.json
+2026-07-23 13:58:46,652 | INFO     | src.embedding.embedder | Loading embedding model: jinaai/jina-embeddings-v2-base-code
+2026-07-23 13:58:52,544 | INFO     | src.embedding.embedder | Model loaded, embedding dim = 768
+2026-07-23 13:58:52,702 | INFO     | src.embedding.vector_store | Connected to Chroma collection 'requests' at /home/rajpatel/MachineLearning/codebase-rag/chroma_db
+2026-07-23 13:58:52,710 | INFO     | src.parsing.serialize | Loaded 722 chunks from /home/rajpatel/MachineLearning/codebase-rag/data/chunks/requests.jsonl
+2026-07-23 13:58:52,710 | INFO     | src.retrieval.chunk_lookup | ChunkLookup loaded 722 chunks for 'requests'
